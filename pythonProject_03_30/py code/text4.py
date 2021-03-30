@@ -30,3 +30,4 @@ def main() :
             t.circle(200)
 if __name__ ==  '__main__':
     main()
+t.done()
