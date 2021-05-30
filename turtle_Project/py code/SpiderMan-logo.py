@@ -199,7 +199,7 @@ t.fd(89)
 t.end_fill()  # 结束填充
 # 提笔转移位置至原点
 t.penup()
-t.goto(0,0)
+t.goto(0, 0)
 t.pendown()
 # 暂停程序，停止画笔绘制，但绘图窗体不关闭
 t.done()
