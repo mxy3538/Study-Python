@@ -3,17 +3,17 @@
 import turtle as t
 t.pencolor('red')
 t.fillcolor('red')
-t.begin_fill() #填充开始
+t.begin_fill()  # 填充开始
 # 1
 t.circle(93)
-t.end_fill() #结束填充
-#提笔转移位置
+t.end_fill()  # 结束填充
+# 提笔转移位置
 t.penup()
 t.seth(28)
 t.fd(89)
 t.pendown()
 # 2
-t.begin_fill() #填充开始
+t.begin_fill()  # 填充开始
 t.seth(-35)
 t.fd(108)
 # 3
@@ -31,14 +31,14 @@ t.fd(168)
 # 7
 t.seth(35)
 t.fd(111)
-t.end_fill() #结束填充
-#提笔转移位置
+t.end_fill()  # 结束填充
+# 提笔转移位置
 t.penup()
 t.seth(110)
 t.fd(165)
 t.pendown()
 # 8
-t.begin_fill() #填充开始
+t.begin_fill()  # 填充开始
 t.seth(-90)
 t.fd(57)
 # 9
@@ -74,14 +74,14 @@ t.fd(89)
 # 19
 t.seth(-33)
 t.fd(34)
-t.end_fill() #结束填充
-#提笔转移位置
+t.end_fill()  # 结束填充
+# 提笔转移位置
 t.penup()
 t.seth(146)
 t.fd(71)
 t.pendown()
 # 20
-t.begin_fill() #填充开始
+t.begin_fill()  # 填充开始
 t.fd(52)
 # 21
 t.seth(-90)
@@ -113,14 +113,14 @@ t.fd(51)
 # 30
 t.seth(90)
 t.fd(115)
-t.end_fill() #结束填充
-#提笔转移位置
+t.end_fill()  # 结束填充
+# 提笔转移位置
 t.penup()
 t.seth(0)
 t.fd(393)
 t.pendown()
 # 31
-t.begin_fill() #填充开始
+t.begin_fill()  # 填充开始
 t.seth(-90)
 t.fd(113)
 # 32
@@ -153,14 +153,14 @@ t.fd(174)
 # 41
 t.seth(-146)
 t.fd(52)
-t.end_fill() #结束填充
-#提笔转移位置
+t.end_fill()  # 结束填充
+# 提笔转移位置
 t.penup()
 t.seth(-146)
 t.fd(36)
 t.pendown()
 # 42
-t.begin_fill() #填充开始
+t.begin_fill()  # 填充开始
 t.seth(-147)
 t.fd(34)
 # 43
@@ -196,10 +196,10 @@ t.fd(32)
 # 53
 t.seth(90)
 t.fd(89)
-t.end_fill() #结束填充
-#提笔转移位置至原点
+t.end_fill()  # 结束填充
+# 提笔转移位置至原点
 t.penup()
 t.goto(0,0)
 t.pendown()
-#暂停程序，停止画笔绘制，但绘图窗体不关闭
+# 暂停程序，停止画笔绘制，但绘图窗体不关闭
 t.done()
